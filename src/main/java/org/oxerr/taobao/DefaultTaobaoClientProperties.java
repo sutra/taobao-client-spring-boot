@@ -3,7 +3,7 @@ package org.oxerr.taobao;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @see com.taobao.api.DefaultTaobaoClient
+ * DefaultTaobaoClient properties.
  */
 @ConfigurationProperties(prefix = DefaultTaobaoClientProperties.PREFIX)
 public class DefaultTaobaoClientProperties {

@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * Initializes a {@code DefaultTaobaoClient} bean named {@code defaultTaobaoClient}.
+ */
 @Configuration
 public class DefaultTaobaoClientConfiguration {
 
